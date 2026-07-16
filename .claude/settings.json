@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(./mvnw.cmd spring-boot:run)",
+      "Bash(curl -s http://localhost:8081/)"
+    ]
+  }
+}
